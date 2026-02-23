@@ -1,0 +1,47 @@
+:root {
+  --bg: #f6f8ff;
+  --fg: #101624;
+  --card: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next", "Avenir", "Segoe UI", sans-serif;
+  color: var(--fg);
+  background:
+    radial-gradient(circle at 15% 15%, #dbe8ff 0%, transparent 35%),
+    radial-gradient(circle at 85% 5%, #e8fff5 0%, transparent 30%),
+    var(--bg);
+  min-height: 100%;
+}
+
+.container {
+  max-width: 760px;
+  margin: 64px auto;
+  padding: 28px;
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--card) 88%, #ffffff);
+  box-shadow: 0 10px 35px rgba(10, 26, 80, 0.08);
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+p {
+  margin: 0 0 16px;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.8;
+}

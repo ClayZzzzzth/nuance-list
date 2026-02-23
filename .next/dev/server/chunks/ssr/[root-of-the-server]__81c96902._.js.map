@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/bytedance/Documents/ios/nuance-list/app/page.js"],"sourcesContent":["export default function Home() {\n  return (\n    <main className=\"container\">\n      <h1>Nuance List Web Demo</h1>\n      <p>Next.js demo is ready. We can now iterate on product features.</p>\n      <ul>\n        <li>Define user flows</li>\n        <li>Build first interactive list</li>\n        <li>Add API + persistence</li>\n      </ul>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,6WAAC;QAAK,WAAU;;0BACd,6WAAC;0BAAG;;;;;;0BACJ,6WAAC;0BAAE;;;;;;0BACH,6WAAC;;kCACC,6WAAC;kCAAG;;;;;;kCACJ,6WAAC;kCAAG;;;;;;kCACJ,6WAAC;kCAAG;;;;;;;;;;;;;;;;;;AAIZ"}}]
+}

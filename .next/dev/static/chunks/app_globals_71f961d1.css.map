@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/bytedance/Documents/ios/nuance-list/app/globals.css"],"sourcesContent":[":root {\n  --bg: #f6f8ff;\n  --fg: #101624;\n  --card: #ffffff;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nhtml,\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: \"Avenir Next\", \"Avenir\", \"Segoe UI\", sans-serif;\n  color: var(--fg);\n  background:\n    radial-gradient(circle at 15% 15%, #dbe8ff 0%, transparent 35%),\n    radial-gradient(circle at 85% 5%, #e8fff5 0%, transparent 30%),\n    var(--bg);\n  min-height: 100%;\n}\n\n.container {\n  max-width: 760px;\n  margin: 64px auto;\n  padding: 28px;\n  border-radius: 18px;\n  background: color-mix(in srgb, var(--card) 88%, #ffffff);\n  box-shadow: 0 10px 35px rgba(10, 26, 80, 0.08);\n}\n\nh1 {\n  margin: 0 0 12px;\n  font-size: clamp(1.8rem, 3vw, 2.5rem);\n}\n\np {\n  margin: 0 0 16px;\n  line-height: 1.5;\n}\n\nul {\n  margin: 0;\n  padding-left: 20px;\n  line-height: 1.8;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;;;;;;AAaA;;;;;;;;;AASA;;;;;AAKA;;;;;AAKA"}}]
+}
